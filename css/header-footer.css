@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004F45;
+    padding: 16px;
+}
+
+.logo-header {
+    height: 56px;
+}
+
+.burger {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 1002;
+}
+
+#cart.active+#burger {
+    display: none;
+}
+
+.cart .burger {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1002;
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
