@@ -14,12 +14,7 @@ header {
     font-size: 32px;
     color: #fff;
     cursor: pointer;
-    position: relative;
     z-index: 1002;
-}
-
-#cart.active+#burger {
-    display: none;
 }
 
 .cart .burger {

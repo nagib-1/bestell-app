@@ -13,22 +13,20 @@
 <body>
 
     <header>
-
         <div>
             <a href="index.html">
-                <img class="logo-header" src="img/navlogo2.jpg">
+                <img class="logo-header" src="img/navlogo2.jpg" alt="Logo" />
             </a>
         </div>
-
         <div>
             <nav class="cart" id="cart">
                 <h2>Warenkorb</h2>
                 <div class="burger cart-close" id="cart-close">&#9776;</div>
                 <ul class="cart-items"></ul>
                 <div class="cart-summary">
-                    <div>Zwischensumme: <span id="subtotal">0,00 €</span></div>
-                    <div>Lieferkosten: <span id="shipping">2,50 €</span></div>
-                    <div>Gesamt: <span id="total">2,50 €</span></div>
+                    <div>Zwischensumme: <span id="subtotal">0,00€</span></div>
+                    <div>Lieferkosten: <span id="shipping">2,50€</span></div>
+                    <div>Gesamt: <span id="total">2,50€</span></div>
                 </div>
             </nav>
             <div class="burger" id="burger">&#9776;</div>
@@ -40,16 +38,13 @@
     <img class="banner-header" src="img/grill.jpg" alt="Banner" />
 
     <main class="content">
-
         <div>
             <img class="company-logo" src="img/company-logo.jpg" alt="Mash Food Logo" />
         </div>
-
         <div>
             <h1 class="company-name">Mash Food</h1>
             <span class="company-rating">Bewertung (4,9 von 5 Sternen)</span>
         </div>
-
         <div>
             <h2 class="h2-space">Hauptgerichte und Beilagen</h2>
         </div>
@@ -57,36 +52,17 @@
         <div class="dishes">
             <img class="banner" src="img/pizza.png" alt="Pizza" />
             <h2 class="h2-space">Hauptgerichte</h2>
-            <div class="dish-block" data-name="Pizza Krabben" data-price="9.50">
-                <h3>Pizza Krabben</h3><span>mit Krabben und Peperoni</span><span class="price">9,50 €</span><button
-                    class="add-to-cart">+</button>
-            </div>
-            <div class="dish-block" data-name="Pizza Margherita" data-price="5.90">
-                <h3>Pizza Margherita</h3><span>mit Mozzarella</span><span class="price">5,90 €</span><button
-                    class="add-to-cart">+</button>
-            </div>
-            <div class="dish-block" data-name="Pizza Diavolo (scharf)" data-price="8.50">
-                <h3>Pizza Diavolo (scharf)</h3><span>mit Salami, Peperoni und Knoblauch</span><span class="price">8,50
-                    €</span><button class="add-to-cart">+</button>
-            </div>
+            <div id="main-dishes"></div>
+
             <img class="banner" src="img/penne.jpg" alt="Penne" />
             <h2 class="h2-space">Beilagen</h2>
-            <div class="dish-block" data-name="Pizzabrötchen" data-price="4.50">
-                <h3>Pizzabrötchen</h3><span>mit Käse und Knoblauch</span><span class="price">4,50 €</span><button
-                    class="add-to-cart">+</button>
-            </div>
-            <div class="dish-block" data-name="Pizzasticks" data-price="5.50">
-                <h3>Pizzasticks</h3><span>mit Käse und Knoblauch</span><span class="price">5,50 €</span><button
-                    class="add-to-cart">+</button>
-            </div>
-            <div class="dish-block" data-name="Salat" data-price="5.90">
-                <h3>Salat</h3><span>mit Oliven und Fetakäse</span><span class="price">5,90 €</span><button
-                    class="add-to-cart">+</button>
-            </div>
+            <div id="side-dishes"></div>
         </div>
     </main>
 
-    <script src="javascript.js"></script>
+    <script src="js/dishes.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
