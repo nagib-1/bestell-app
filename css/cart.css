@@ -93,7 +93,6 @@
 
 .cart-summary {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
-
     font-size: 1.1em;
 }
 
@@ -102,4 +101,23 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
+}
+
+.order-btn {
+    margin-top: 10px;
+    background: #fff;
+    color: #095e53;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 38px;
+}
+
+.order-message {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .3s;
 }

@@ -100,6 +100,11 @@ class ShoppingCart {
       })
     );
   }
+
+  clearCart() {
+    this.cart = {};
+    this.updateDisplay();
+  }
 }
 
 window.initCartToggle = initCartToggle;
