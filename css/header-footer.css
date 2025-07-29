@@ -26,3 +26,43 @@ header {
     color: #fff;
     cursor: pointer;
 }
+
+.site-footer {
+    background-color: #004F45;
+    color: #fff;
+    padding: 16px 20px;
+    text-align: center;
+}
+
+.site-footer .footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.site-footer .footer-logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.site-footer .footer-nav a {
+    color: #fff;
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.site-footer .footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.site-footer small {
+    flex-basis: 100%;
+    margin-top: 8px;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
