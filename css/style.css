@@ -60,10 +60,10 @@ body.no-scroll {
 }
 
 .add-to-cart {
+    font-size: 38px;
     align-self: flex-end;
     background: none;
     border: none;
-    font-size: 1.2em;
     cursor: pointer;
 }
 

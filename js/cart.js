@@ -54,12 +54,12 @@ class ShoppingCart {
       li.innerHTML = `
         <span class="item-name">${name}</span>
         <div class="item-controls">
-          <button class="dec" aria-label="–">–</button>
+          <button class="dec">-</button>
           <span class="item-qty">${qty}</span>
-          <button class="inc" aria-label="+">+</button>
+          <button class="inc">+</button>
         </div>
         <span class="item-price">${this.formatEuro(price * qty)}</span>
-        <button class="remove" aria-label="🗑️">×</button>
+        <button class="remove">🗑️</button>
       `;
       li.querySelector('.inc').onclick = () => this.changeQty(key, +1);
       li.querySelector('.dec').onclick = () => this.changeQty(key, -1);
